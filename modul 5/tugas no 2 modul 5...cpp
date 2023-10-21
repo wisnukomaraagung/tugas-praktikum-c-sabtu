@@ -9,7 +9,7 @@ int main ()
 	
 	printf("menghitung harga setelah diskon") ;
 	printf("\nmasukan kode = ") ; scanf ("%i", &kode);
-	printf("\nmasukan jenis (A, B, C) = ") ; scanf("%c", &jenis);
+	printf("\nmasukan jenis (A, B, C) = ") ; scanf(" %c", &jenis);
 	printf("\nmasukan harga = "); scanf("%i", &harga);
 	
 	switch(jenis) {
@@ -30,8 +30,3 @@ int main ()
 		return 0 ;
 	}
 		 
-		
-		
-		
-	
-
